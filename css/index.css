@@ -1,0 +1,57 @@
+@charset "utf-8";
+.jumbotron{
+	background: #670000
+}
+.jumbotron.jumbotron-fluid .container .text-center.text-white h1 {
+	font-family: "adelle-sans", sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.footer {
+  background-color: #4D0000; /* Color rojo oscuro */
+  color: #ffffff;
+  padding: 40px 20px;
+}
+ 
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+ 
+.footer-contact, .footer-visit {
+  color: #e74c3c;
+  max-width: 400px;
+}
+ 
+.footer-contact h2,
+.footer-visit h2 {
+	font-size: 30px;
+	font-style: italic;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+ 
+.footer-contact p, .footer-visit p {
+  margin: 5px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+ 
+.footer-contact span {
+  color: #e74c3c;
+}
+ 
+.footer-contact a {
+  color: #e74c3c;
+  text-decoration: none;
+}
+img{
+	width: 40%;
+	padding-top: 10px;
+}
